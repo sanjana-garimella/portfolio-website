@@ -637,6 +637,11 @@ body {
   transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition effects */
 }
 
+.button-cv-link {
+  text-decoration: none; /* Remove underline and any default styling applied by <a> */
+  display: inline-block; /* Make sure it behaves like a block-level element */
+}
+
 .button-cv:after {
   content: "";
   background-color: rgba(0, 170, 255, 0.2); /* Light blue background for hover effect */
